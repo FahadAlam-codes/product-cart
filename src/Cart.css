@@ -1,0 +1,76 @@
+.CartDiv {
+  width: 20%;
+  border-radius: 0.5rem;
+}
+
+.img-addToCart {
+  width: 100%;
+  position: relative;
+}
+
+.cartImg {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.cartImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+}
+
+.addCart {
+  /* position: absolute; */
+  left: 10%;
+  border-radius: 1rem;
+  bottom: 1rem;
+  position: relative;
+  background: var(--Rose-50);
+  cursor: pointer;
+  border: 1px solid var(--Red);
+  /* font-size: 0.8rem; */
+  padding: 0.2rem 0;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: space-evenly;
+}
+
+.img-text{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.atext{
+  font-size: .8rem;
+}
+
+.imgAddToCart {
+  width: 1rem;
+}
+
+.btn {
+  height: 1rem;
+  border-radius: 50%;
+}
+
+.counter {
+  font-size: 0.8rem;
+}
+
+.nameHead {
+  color: var(--Rose-300);
+  font-size: 0.7rem;
+}
+.nameDesc {
+  color: var(--Rose-900);
+}
+.namePrice {
+  color: var(--Red);
+}
+
+.fSize {
+  font-size: 0.8rem;
+}
